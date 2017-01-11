@@ -1,0 +1,70 @@
+body {
+	background-color: #333;
+}
+
+header {
+	background-color: #333;
+	color: white;
+	text-align: center;
+}
+
+h1{
+	font: bold 30px Tahoma;
+	margin: 15px;
+	color: #FFC125;
+	text-shadow: 1px 1px 1px orange, 0 0 1em #FFFAFA;
+}
+
+p{
+	text-indent: 2.0em;
+	text-align: justify;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    width: 17%;
+    background-color: #333;
+    position: fixed;
+    height: 100%;
+    overflow: auto;
+}
+
+li a {
+    display: block;
+    color: #ffffff;
+    padding: 8px 16px;
+    text-decoration: none;
+}
+
+li a.active {
+    background-color: orange;
+    color: white;
+}
+
+li a:hover:not(.active) {
+    background-color: orange;
+    color: white;
+}
+
+section{
+	position: relative;
+	background: rgba(0, 87, 184, 0.4);
+	margin-left:25%;
+	width: 60%;
+	height: 50%;
+	padding: 2% 2%;
+	border: 3px solid #ffcc00;
+	
+	
+}
+
+
+
+
+
+header, section, footer, aside, nav, main, article, figure {
+    display: block; 
+}
+
